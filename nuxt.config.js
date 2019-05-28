@@ -11,9 +11,9 @@ export default {
   head: {
     titleTemplate(title) {
       if (title) {
-        return `${title} - Nuxt PWA Vuetify`
+        return `${title} - Web Developer`
       }
-      return 'Nuxt PWA Vuetify'
+      return 'Web Developer'
     },
     meta: [
       { charset: 'utf-8' },

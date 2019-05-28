@@ -10,7 +10,6 @@
           Welcome to the Vuetify + Nuxt.js template
         </v-card-title>
         <v-card-text>
-          <app-component />
           <p>
             Vuetify is a progressive Material Design component framework for
             Vue.js. It was designed to empower developers to create amazing
@@ -62,12 +61,8 @@
 </template>
 
 <script>
-import AppComponent from '~/components/Component'
-
 export default {
-  components: {
-    AppComponent
-  },
+  components: {},
   data() {
     return {}
   }
