@@ -1,70 +1,76 @@
 <template>
-  <v-layout column justify-center align-center>
-    <v-flex xs12 sm8 md6>
-      <div class="text-xs-center">
-        <!-- eslint-disable-next-line -->
-        <img src="~static/v.png" alt="Vuetify.js" class="mb-5" />
-      </div>
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-        <v-card-text>
-          <p>
-            Vuetify is a progressive Material Design component framework for
-            Vue.js. It was designed to empower developers to create amazing
-            applications.
+  <v-content class="pa-0 ma-0">
+    <v-container fluid class="my-4">
+      <v-layout wrap align-center justify-center row fill-height class="">
+        <v-flex xs12 md10>
+          <app-home-start-screen />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid style="background-color:#F9F9F9">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10 class="">
+          <app-home-what-we-do />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid style="background-color:#4C4A78">
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10 class="">
+          <app-home-about-chapter />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid>
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10 class="">
+          <app-home-event-show-case />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid class="py-5" style="background-color:#F9F9F9">
+      <v-layout wrap align-start justify-start row fill-height>
+        <v-flex xs12 md10 offset-md1 offset-lg1>
+          <p class="google-font mb-2" style="font-size:150%">
+            Our Feature Event & Meetup
           </p>
-          <p>
-            For more information on Vuetify, check out the
-            <a href="https://vuetifyjs.com" target="_blank">documentation</a>.
-          </p>
-          <p>
-            If you have questions, please join the official
-            <a href="https://chat.vuetifyjs.com/" target="_blank" title="chat">
-              discord </a
-            >.
-          </p>
-          <p>
-            Find a bug? Report it on the github
-            <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
-              target="_blank"
-              title="contribute"
-            >
-              issue board </a
-            >.
-          </p>
-          <p>
-            Thank you for developing with Vuetify and I look forward to bringing
-            more exciting features in the future.
-          </p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <!-- eslint-disable-next-line -->
-          <hr class="my-3" />
-          <a href="https://nuxtjs.org/" target="_blank">Nuxt Documentation</a>
-          <!-- eslint-disable-next-line -->
-          <br />
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank">
-            Nuxt GitHub
-          </a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn color="primary" flat nuxt to="/inspire">Continue</v-btn>
-        </v-card-actions>
-      </v-card>
-    </v-flex>
-  </v-layout>
+        </v-flex>
+        <v-flex xs12 md10 offset-md1 offset-lg1>
+          <app-home-feature-event />
+        </v-flex>
+      </v-layout>
+    </v-container>
+
+    <v-container fluid>
+      <v-layout wrap align-center justify-center row fill-height>
+        <v-flex xs12 md10>
+          <app-home-partners />
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </v-content>
 </template>
 
 <script>
+import AppHomeWhatWeDo from '~/components/home/AppHomeWhatWeDo'
+import AppHomeStartScreen from '~/components/home/AppHomeStartScreen'
+import AppHomeAboutChapter from '~/components/home/AppHomeAboutChapter'
+import AppHomeEventShowCase from '~/components/home/AppHomeEventShowCase'
+import AppHomePartners from '~/components/home/AppHomePartners'
+import AppHomeFeatureEvent from '~/components/home/AppHomeFeatureEvent'
+
 export default {
-  components: {},
-  data() {
-    return {}
+  components: {
+    AppHomeStartScreen,
+    AppHomeWhatWeDo,
+    AppHomeAboutChapter,
+    AppHomeEventShowCase,
+    AppHomePartners,
+    AppHomeFeatureEvent
   }
 }
 </script>

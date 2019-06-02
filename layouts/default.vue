@@ -1,9 +1,9 @@
 <template>
   <v-app>
-    <v-content>
+    <v-content class="pa-0 ma-0">
       <app-toolbar />
       <app-drawer />
-      <v-container> <nuxt /> </v-container>
+      <v-container fluid="" class="py-0 my-0"> <nuxt /> </v-container>
       <app-footer />
     </v-content>
   </v-app>
