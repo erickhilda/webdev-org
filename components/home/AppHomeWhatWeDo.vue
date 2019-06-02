@@ -101,9 +101,9 @@ export default {
     getImgUrl(url) {
       if (url.length > 0) {
         console.log(url)
-        return `/img/what-we-do/${url}`
+        return `/what-we-do/${url}`
       } else {
-        return '/img/what-we-do/notFound.png'
+        return '/what-we-do/notFound.png'
       }
     }
   }

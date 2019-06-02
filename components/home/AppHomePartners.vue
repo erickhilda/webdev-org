@@ -152,7 +152,7 @@ export default {
   },
   methods: {
     getImgUrl(pic) {
-      return `'/partners/' + ${pic}`
+      return `/partners/${pic}`
     }
   }
 }
