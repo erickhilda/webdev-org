@@ -1,18 +1,24 @@
 <template>
   <v-app>
-    <v-content>
+    <v-content class="pa-0 ma-0">
       <app-toolbar />
-      <v-container> <nuxt /> </v-container>
+      <app-drawer />
+      <nuxt />
+      <app-footer />
     </v-content>
   </v-app>
 </template>
 
 <script>
 import AppToolbar from '~/components/common/AppToolbar'
+import AppFooter from '~/components/common/AppFooter'
+import AppDrawer from '~/components/common/AppDrawer'
 
 export default {
   components: {
-    AppToolbar
+    AppToolbar,
+    AppFooter,
+    AppDrawer
   },
   data() {
     return {
