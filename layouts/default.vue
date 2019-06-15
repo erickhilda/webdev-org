@@ -3,7 +3,7 @@
     <v-content class="pa-0 ma-0">
       <app-toolbar />
       <app-drawer />
-      <v-container fluid="" class="py-0 my-0"> <nuxt /> </v-container>
+      <nuxt />
       <app-footer />
     </v-content>
   </v-app>

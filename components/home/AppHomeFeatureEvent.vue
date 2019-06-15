@@ -164,7 +164,7 @@ export default {
   methods: {
     getImgUrl(pic) {
       if (pic.length > 0) {
-        return `'/featureEvent/' + ${pic}`
+        return `/featureEvent/${pic}`
       } else {
         return '/featureEvent/imagenotfound.png'
       }

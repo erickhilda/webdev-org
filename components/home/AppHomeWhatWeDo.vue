@@ -100,7 +100,6 @@ export default {
   methods: {
     getImgUrl(url) {
       if (url.length > 0) {
-        console.log(url)
         return `/what-we-do/${url}`
       } else {
         return '/what-we-do/notFound.png'
