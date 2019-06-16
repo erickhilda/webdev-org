@@ -90,10 +90,9 @@
                 {{ item.name }}
               </p>
               <p class="google-font mt-2 mb-1">
-                <span
-                  style="font-size:110%"
-                  v-html="$options.filters.summery(item.description, 180)"
-                ></span>
+                <span style="font-size:110%">
+                  {{ $options.filters.summery(item.description, 180) }}
+                </span>
               </p>
               <p class="google-font mt-1 mb-0" style="font-size:110%">
                 <v-icon>insert_invitation</v-icon>
