@@ -52,7 +52,7 @@
     "nuxt": "^2.3.4",
     "nuxt-webfontloader": "^1.0.0",
     "vee-validate": "^2.1.5",
-    "vuetify": "^1.4.2",
+    "vuetify": "^1.5.16",
     "vuetify-loader": "^1.1.1"
   },
   "devDependencies": {
