@@ -1122,10 +1122,10 @@
   dependencies:
     core-js "^2.5.7"
 
-"@mdi/font@^3.3.92":
-  version "3.6.95"
-  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-3.6.95.tgz#0bbde766ca2d94cfa0e469f25523b23d3112bdd3"
-  integrity sha512-wUbkF/RRCIh51TPzAL9qUeRSUFla9I3x1nGq62HkfWzIebRHbDY5HPaYCQuZO7398dWaLHTu4BwnBA58YbhfEA==
+"@mdi/font@^3.9.96":
+  version "3.9.96"
+  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-3.9.96.tgz#0c957f1f07e45bd56e6c87cbd1c0d44c8002d129"
+  integrity sha512-mGzfr/4hNQaR9mY4nFDyMgL6ouTyDMrp4sEPHLXFy403EMbdrkVLHX/aHfnrgUgXMxS54ozN7vMjeqTbj9eE9w==
 
 "@nuxt/babel-preset-app@2.8.1":
   version "2.8.1"
