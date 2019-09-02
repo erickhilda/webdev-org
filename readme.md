@@ -4,11 +4,11 @@
 [![Azure Build Status](https://dev.azure.com/jefrydco/jefrydco/_apis/build/status/jefrydco.nuxt-pwa-vuetify-starter)](https://dev.azure.com/jefrydco/jefrydco/_build?definitionId=1)
 [![Coverage Status](https://badgen.net/codecov/c/github/jefrydco/nuxt-pwa-vuetify-starter/master)](https://codecov.io/gh/jefrydco/nuxt-pwa-vuetify-starter)
 
-> Nuxt.js + PWA + Vuetify.js starter project
+> Comunity Profile - Web Profile Template
 
 ## Features
 
-This starter project includes official Nuxt.js modules for best PWA project:
+This template project includes official Nuxt.js modules for best PWA project:
 
 - [Axios](https://github.com/nuxt-community/axios-module)
 - [Component-cache](https://github.com/nuxt-community/modules/tree/master/packages/component-cache)
@@ -55,6 +55,4 @@ For detailed explanation on how things work, check out the [Nuxt.js](https://git
 
 ## License
 
-[MIT License](./license.md)
-
-Copyright (c) Jefry Dewangga (@jefrydco)
+This project was inspire by [aura](https://github.com/gdg-x/aura) and use basic starter project from [jefrydco](https://github.com/jefrydco/nuxt-pwa-vuetify-starter)
