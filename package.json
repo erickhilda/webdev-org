@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-pwa-vuetify-starter",
+  "name": "comunity-official-website-template",
   "version": "1.0.0",
   "private": true,
-  "description": "Nuxt.js + PWA + Vuetify.js starter project",
+  "description": "Comunity Profile - Web Profile Template",
   "keywords": [
     "nuxt",
     "nuxt pwa",
@@ -18,10 +18,10 @@
     "vuetify.js",
     "vuetifyjs"
   ],
-  "homepage": "https://github.com/jefrydco/nuxt-pwa-vuetify-starter#readme",
+  "homepage": "https://github.com/Erhilds/webdev-org#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jefrydco/nuxt-pwa-vuetify-starter"
+    "url": "git+https://github.com/Erhilds/webdev-org"
   },
   "license": "MIT",
   "author": {
