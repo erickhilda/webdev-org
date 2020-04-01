@@ -4258,6 +4258,14 @@ eslint-plugin-cypress@^2.2.0:
   dependencies:
     globals "^11.12.0"
 
+eslint-plugin-es@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-es/-/eslint-plugin-es-1.4.1.tgz#12acae0f4953e76ba444bfd1b2271081ac620998"
+  integrity sha512-5fa/gR2yR3NxQf+UXkeLeP8FBBl6tSgdrAz1+cF84v1FMM4twGwQoqTnn+QxFLcPOrF4pdKEJKDB/q9GoyJrCA==
+  dependencies:
+    eslint-utils "^1.4.2"
+    regexpp "^2.0.1"
+
 eslint-plugin-es@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-es/-/eslint-plugin-es-3.0.0.tgz#98cb1bc8ab0aa807977855e11ad9d1c9422d014b"
@@ -4297,6 +4305,18 @@ eslint-plugin-node@^11.0.0:
   dependencies:
     eslint-plugin-es "^3.0.0"
     eslint-utils "^2.0.0"
+    ignore "^5.1.1"
+    minimatch "^3.0.4"
+    resolve "^1.10.1"
+    semver "^6.1.0"
+
+eslint-plugin-node@^9.1.0:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-9.2.0.tgz#b1911f111002d366c5954a6d96d3cd5bf2a3036a"
+  integrity sha512-2abNmzAH/JpxI4gEOwd6K8wZIodK3BmHbTxz4s79OIYwwIt2gkpEXlAouJXu4H1c9ySTnRso0tsuthSOZbUMlA==
+  dependencies:
+    eslint-plugin-es "^1.4.1"
+    eslint-utils "^1.4.2"
     ignore "^5.1.1"
     minimatch "^3.0.4"
     resolve "^1.10.1"
@@ -4366,6 +4386,13 @@ eslint-utils@^1.3.1:
   integrity sha512-eAZS2sEUMlIeCjBeubdj45dmBHQwPHWyBcT1VSYB7o9x9WRRqKxyUoiXlRjyAwzN7YEzHJlYg0NmzDRWx6GP4Q==
   dependencies:
     eslint-visitor-keys "^1.0.0"
+
+eslint-utils@^1.4.2:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-1.4.3.tgz#74fec7c54d0776b6f67e0251040b5806564e981f"
+  integrity sha512-fbBN5W2xdY45KulGXmLHZ3c3FHfVYmKg0IrAKGOkT/464PQsx2UeIzfz1RmEci+KLm1bBaAzZAh8+/E+XAeZ8Q==
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
 
 eslint-utils@^2.0.0:
   version "2.0.0"
@@ -11062,10 +11089,10 @@ vuetify-loader@^1.1.1:
   dependencies:
     loader-utils "^1.2.0"
 
-vuetify@^2.0.11:
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.0.11.tgz#4679d6d37e4594daec930b28f1bc7083bcc76ca6"
-  integrity sha512-H5g0Wf/KHS1t29X+kh5hkj25dZNITCDtOb3UGl1YXx5Ua3xXUfXBRjKP50BJ7uZtQ3Jk9CiwoA6k3Lstv6zFow==
+vuetify@^2.2.20:
+  version "2.2.20"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-2.2.20.tgz#8cb042f7274f39130f8d40d85d23d62d1c33cae4"
+  integrity sha512-tiij3ammBiG7QrdwRBJxW917AyDLcMekRtLosdyVshDKHA5CpKrru8Ljn1gAmeUyhYZyUw4gz3XbrrIJ++TP7w==
 
 vuex@^3.1.1:
   version "3.1.1"
