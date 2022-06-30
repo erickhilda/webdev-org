@@ -86,7 +86,7 @@
     "prettier": "^1.15.3",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vue-jest": "^3.0.2"
+    "vue-jest": "^3.0.7"
   },
   "engines": {
     "node": ">=8.0.0"
