@@ -7035,6 +7035,11 @@ lru-cache@^5.1.1:
   dependencies:
     yallist "^3.0.2"
 
+lru-cache@^7.16.2:
+  version "7.16.2"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.16.2.tgz#df096ce4374d0cf9d34f29a35832c80534af54b6"
+  integrity sha512-t6D6OM05Y3f+61zNnXh/+0D69kAgJKVEWLuWL1r38CIHRPTWpNjwpR7S+nmiQlG5GmUB1BDiiMjU1Ihs4YBLlg==
+
 lru_map@0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/lru_map/-/lru_map-0.3.3.tgz#b5c8351b9464cbd750335a79650a0ec0e56118dd"
